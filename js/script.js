@@ -1,9 +1,9 @@
 function procesarRespuestas() {
-    let total = 3;
+    let total = 5;
     let puntos = 0;
 
     let myForm = document.forms["formulario"];
-    let respuestasCorrectas = ["a", "d", "c"];
+    let respuestasCorrectas = ["a", "d", "c", "c", "b"];
 
     for (let i = 1; i <= total; i++) {
         if (myForm["r" + i].value == null ||
